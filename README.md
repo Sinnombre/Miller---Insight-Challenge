@@ -101,12 +101,12 @@ Requires: sys, csv, datetime, re
 
 This version of the code works similarly to version 2, but has been expanded to 
 include a number of extra features, exploring new means of fraud detection as
-well as others means of employing the provided data. The basic outline of this 
+well as others methods of employing the provided data. The basic outline of this 
 version is identical to version 2, except that instead of a set, the values in
-the network dictionary are instances of the User_account class, which contain
-a variety of data about the user and their transaction history. Additionally, 
+the network dictionary are instances of the User_account class, which contains
+a variety of other data about the user and their transaction history. Additionally, 
 to account for more complicated means of fraud detection, instead of the binary
-trusted/unverified options in the assignment, each transaction is given an
+trusted/unverified options in the challenge, each transaction is given an
 integer trustworthiness rating, saved in the output.txt file.
 
 The extra features are discussed in detail as they come up in the code. For a
