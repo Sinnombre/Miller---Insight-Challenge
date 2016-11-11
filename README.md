@@ -79,7 +79,7 @@ code has to go through the arduous process of updating both parties friends
 sets, as well as the friends sets of their friends, second-order friends and so
 forth. Thus the total runtime of this code is incredibly slow, compared to other
 versions. Besides the quick response time, this version might also be more
-desireable if degrees of friendship was needed for other applications, e.g.
+desireable if degrees of friendship were needed for other applications, e.g.
 marketing or advertising.
 
 
