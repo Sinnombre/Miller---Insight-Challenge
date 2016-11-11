@@ -111,24 +111,16 @@ trusted/unverified options in the assignment, each transaction is given an
 integer trustworthiness rating, saved in the output.txt file.
 
 The extra features are discussed in detail as they come up in the code. For a
-summary, they are:
-Extra 0: A system where accounts that have gone through an external verification
-		 are treated as trustworthy
-Extra 1: A variety of checks flagging accounts which send / request requests
-		 with suspicious frequencies
-Extra 2: A means of mitigating the suspicion status of accounts after periods of
-		 non-suspicious activity
-Extra 3: A rewards program that makes a payment to returning customers
-Extra 4: A system which increases the untrustworthiness of payment requests from
-	     accounts that have been externally flagged for suspected fraud
-Extra 5: A system which increases the untrustworthiness of transaction requests
-		 for suspicious amounts
-Extra 6: A system which increases the untrustworthiness of requests with no
-		 message
-Extra 7: A system which flags and records accounts suspected of criminal
-		 activity
-Extra 8: A system which raises the suspicion of accounts that request the same
-	     amount from different people several times in a row
+summary, they are:<br />
+Extra 0: A system where accounts that have gone through an external verification are treated as trustworthy<br />
+Extra 1: A variety of checks flagging accounts which send / request requests with suspicious frequencies<br />
+Extra 2: A means of mitigating the suspicion status of accounts after periods of non-suspicious activity<br />
+Extra 3: A rewards program that makes a payment to returning customers<br />
+Extra 4: A system which increases the untrustworthiness of payment requests from accounts that have been externally flagged for suspected fraud<br />
+Extra 5: A system which increases the untrustworthiness of transaction requests for suspicious amounts<br />
+Extra 6: A system which increases the untrustworthiness of requests with no message<br />
+Extra 7: A system which flags and records accounts suspected of criminal activity<br />
+Extra 8: A system which raises the suspicion of accounts that request the same amount from different people several times in a row<br />
 
 
 
@@ -144,7 +136,8 @@ unless we are considering 6+ order friendships or something that is bound to be
 way less efficient. The problem is that if only one person records each
 friendship, it could transpire that B (and only B) records their friendship with
 both A and C. If A and C then interact, the only way they can know they share
-the mutual friend B is if they scan every client for potential matches.
+the mutual friend B is if they scan every client for potential matches. Anyway,
+if this becomes an issue maybe we can find another solution.
 
 
 From looking into the operation of Extra 1, it's pretty clear that most people
