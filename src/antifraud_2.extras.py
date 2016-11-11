@@ -260,7 +260,7 @@ suspicious_amounts = set([3,47,62,94])
 #   payment messages. We will do this by first flagging accounts for using these
 #   'bad' words, then later printing out a list of account ids for the FBI. Note
 #   that the bad words list uses regular expressions
-bad_words = set([r'[Ww]ee+d',r'[Dd]ru+gs',r'[Gg]erman [Mm]otherland'])          # Yes, that last one appears 7 times in our data set...
+bad_words = set([r'[Ww]ee+d',r'[Dd]ru+gs',r'[Rr]estore.*[Rr][Ee][Ii][Cc][Hh]']) # Yes, that last one appears 7 times in our data set...
 
 
 second_degree_1 = set()                                                         # Initialize second degree sets for later use
