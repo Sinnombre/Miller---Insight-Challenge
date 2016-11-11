@@ -154,9 +154,8 @@ class User_account:
     # Extra 3: Marketing has decided to implement a rewards system. After
     #   participating in 20 'large' transactions (either as sender or reciever),
     #   accounts are given a one-time award of 5 dollars. This is implemented by
-    #   writing to a new file (saved as a global variable), which is read after
-    #   stream_payments. Note that this program began between the periods
-    #   covered by the two input files.
+    #   writing to a new file, which is read after stream_payments. Note that 
+    #   this program began between the periods covered by the two input files.
     def account_rewards(self,id,rewards_writer):
         self.big_transactions_count += 1
         if (self.big_transactions_count == 20):
