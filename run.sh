@@ -32,4 +32,4 @@
 #   rewards.csv and suspects.txt. Output files are replaced.
 # Requires modules: sys, csv, datetime, re
 
-python ./src/antifraud_2.extras.py ./paymo_input/batch_payment_2.csv ./paymo_input/stream_payment_2.csv ./paymo_output/output.txt ./paymo_output/rewards.csv ./paymo_output/suspects.txt
+#python ./src/antifraud_2.extras.py ./paymo_input/batch_payment_2.csv ./paymo_input/stream_payment_2.csv ./paymo_output/output.txt ./paymo_output/rewards.csv ./paymo_output/suspects.txt
