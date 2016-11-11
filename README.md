@@ -129,7 +129,7 @@ Even in my most data efficient version, version 2, fully half of the data I
 save is redundant. Because all friendships are reciprocal, B being in the set of
 A's friends implies that A is a member of B's friends as well. However, at least
 in the time frame we were given, I couldn't come up with any way to use this to
-halve the data requirements (and possibly make a code which ran faster too). I
+halve the data requirements (and possibly make the code run faster too). I
 mean, I could just make a giant table comparing everyone to everyone else, but
 unless we are considering 6+ order friendships or something that is bound to be
 way less efficient. The problem is that if only one person records each
