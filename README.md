@@ -34,8 +34,7 @@ character. The given data uses '\n' for the end of a transaction, but allows
 does not yet allow specifying the lineterminator (it defaults to including both
 options), so comments with '\r' in them create new lines on reading. Running
 this program first is unnecessary (i.e. the code will accurately complete with
-the original data), but it will prevent some error messages from being
-generated.
+the original data), but it will prevent the generation of some error messages.
 
 
 
