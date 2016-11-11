@@ -149,3 +149,8 @@ out that it doesn't seem like a very good system. All a scammer would have to
 do is make a single payment to some huge retailer like Amazon, and suddenly they
 would be second-order friends with (potentially) millions of people. This was 
 the problem I was trying to fix with Extra 0.
+
+
+Extra 7 is designed to flag accounts that regularly use suspicious words in their messages.
+I made it half as a joke, and only gave it a few key words, but running it, it got 83 hits 
+in the stream_payments data set. So yeah, that's a thing...
